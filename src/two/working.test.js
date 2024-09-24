@@ -1,4 +1,4 @@
-import {setTimeout} from 'timers/promises';
+const {setTimeout} = require('node:timers/promises');
 
 describe('Working test suite', () => {
   for (let i = 1; i <= 20; i++) {
